@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.venv/
+
+# Raw data and dataset — never commit
+data/raw/
+Dataset/
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Power BI binary (one person edits at a time — no merging)
+# *.pbix   ← we DO want to track this, so leave it uncommented
+
+# OS files
+.DS_Store
+Thumbs.db
